@@ -56,7 +56,7 @@ const Category = () => {
           {/* Title & Sort */}
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
             <div className="text-[10px] font-black uppercase tracking-[0.15em] text-black">
-              {sortedProducts.length} Items - {slug?.toUpperCase()}
+              {sortedProducts.length} Items
             </div>
             
             {/* Premium Custom Sort Dropdown */}
